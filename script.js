@@ -12,7 +12,7 @@ function handleInput(value) {
         try {
             display.innerText = eval(
                 display.innerText
-                    .replace('×', '*')
+                    .replace('x', '*')
                     .replace('÷', '/')
             );
         } catch {
